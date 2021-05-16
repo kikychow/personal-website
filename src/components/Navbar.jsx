@@ -9,10 +9,10 @@ function Navbar() {
             <a className="nav-link py-0" href="#">Home</a>
           </li>
           <li className="nav-item py-0">
-            <a className="nav-link py-0" href="#">Work</a>
+            <a className="nav-link py-0" href="#">About Me</a>
           </li>
           <li className="nav-item py-0">
-            <a className="nav-link py-0" href="#">About</a>
+            <a className="nav-link py-0" href="#">Projects</a>
           </li>
           <li className="nav-item py-0">
             <a className="nav-link py-0" href="#">Contact</a>

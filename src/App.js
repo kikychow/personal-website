@@ -1,11 +1,13 @@
 import logo from './logo.svg';
-import Menu from './components/Menu'
 import './App.css';
+import Menu from './components/Menu'
+import ProjectsPage from './components/ProjectsPage'
 
 function App() {
   return (
     <div className="App">
         <Menu />
+        <ProjectsPage />
     </div>
   );
 }
