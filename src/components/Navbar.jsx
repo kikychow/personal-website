@@ -3,19 +3,19 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light">
-        <ul className="navbar-nav mx-auto">
-          <li className="nav-item py-0">
-            <a className="nav-link py-0" href="#">Home</a>
+      <nav className="navbar">
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            <a className="nav-link" href="#">Home</a>
           </li>
-          <li className="nav-item py-0">
-            <a className="nav-link py-0" href="#">About Me</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">About Me</a>
           </li>
-          <li className="nav-item py-0">
-            <a className="nav-link py-0" href="#">Projects</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Projects</a>
           </li>
-          <li className="nav-item py-0">
-            <a className="nav-link py-0" href="#">Contact</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Experience</a>
           </li>
         </ul>
       </nav>

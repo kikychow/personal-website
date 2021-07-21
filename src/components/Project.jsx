@@ -6,7 +6,7 @@ function Project(props) {
     <div className="col-sm-4">
       <div className="card">
         <img
-          class="card-image w-100 h-100"
+          className="card-image w-100 h-100"
           src={props.image}
         ></img>
         <p className="project-name">{props.title}</p>

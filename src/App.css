@@ -1,19 +1,17 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
-h1 {
+/* h1 {
   font-family: "Rock Salt", cursive;
   font-size: 60px !important;
-  color:burlywood;
-  /* color: white; */
-  /* color: rgba(216, 187, 171, 1); */
-}
+  color: burlywood;
+}  */
 
 h2 {
   font-family: "Cormorant Garamond", serif;
@@ -31,8 +29,80 @@ h2 {
   /* background-color: antiquewhite; */
 }
 
+.home-page {
+  position: relative;
+}
+
+.home-page .home-img {
+  /* position: absolute; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/cx.png");
+  background-size: cover;
+  /* min-height: 600px; */
+  /* background-position: 50%; */
+  /* width: 100%; */
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+}
+
+.home-page .center-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-page .subtitle {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #fff;
+  margin: 0 0 30px 0;
+  opacity: 80%;
+}
+
+.home-page .name {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  /* letter-spacing: -0.02em; */
+  letter-spacing: 0.1em;
+  color: #fff;
+  width: 100%;
+  line-height: 100%;
+  margin: 0;
+  /* opacity: 80%; */
+}
+
+.home-page .icon-container {
+  margin-top: 50px;
+}
+
+.home-page .icon-container .icon {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0px 8px;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.home-page .icon-container .icon:hover{
+  transition: transform 1s;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
 .menu {
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   /* background-color: darkslategrey; */
   /* background: rgb(32,73,92);
 background: radial-gradient(circle, rgba(32,73,92,1) 40%, rgba(15,33,42,1) 100%); */
@@ -84,15 +154,34 @@ background: radial-gradient(circle, rgba(32,73,92,1) 40%, rgba(15,33,42,1) 100%)
 }
 
 .navbar {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
-  font-size: 20px;
-  transform: translatey(-200%);
+  /* font-family: "Cormorant Garamond", serif; */
+  /* min-height: 10vh; */
+}
+
+.navbar-nav {
+  margin: auto;
+  flex-direction: row;
 }
 
 .nav-item {
-  border-left: 1px solid grey;
   padding: 0px 30px;
+}
+
+.nav-item:hover{
+  transition: transform 1s;
+  transform: scale(1.1);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  opacity: 80%;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
 }
 
 .card {

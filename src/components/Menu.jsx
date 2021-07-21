@@ -3,21 +3,18 @@ import Navbar from "./Navbar";
 
 function Menu() {
   return (
-    <div className="row menu">
-      <div className="col-sm-5">
-        <img
-          className="w-100"
-          src={process.env.PUBLIC_URL + "/images/profile.jpg"}
-          alt="profile"
-        />
-      </div>
-      <div className="col-sm-7 my-auto">
-        <Navbar />
-        <h1 className="mb-5">Hello! I'm Kiky.</h1>
-        <br />
-        <p className="content">
-          2nd year Computing student at Imperial College London
-        </p>
+    <div className="home-page">
+      <div className="home-img">
+      <Navbar />
+        <div className="center-block">
+          <p className="subtitle">Hello! I'm</p>
+          <h1 className="name">Kiky Chow</h1>
+          <div className="icon-container">
+            <i className="icon fa fa-envelope-square" />
+            <i className="icon fa fa-linkedin-square" />
+            <i className="icon fa fa-github-square" />
+          </div>
+        </div>
       </div>
     </div>
   );

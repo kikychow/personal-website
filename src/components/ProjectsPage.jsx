@@ -5,7 +5,7 @@ import ProjectsData from "./ProjectsData";
 function ProjectsPage() {
   return (
     <div className="projects-page">
-      <div class="row">
+      <div className="row">
         <div className="col-sm-4">
           <h2>Projects</h2>
           <p className="projectspage-content">
