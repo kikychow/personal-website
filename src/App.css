@@ -153,10 +153,10 @@ background: radial-gradient(circle, rgba(32,73,92,1) 40%, rgba(15,33,42,1) 100%)
   }
 }
 
-.navbar {
-  /* font-family: "Cormorant Garamond", serif; */
-  /* min-height: 10vh; */
-}
+/* .navbar {
+  font-family: "Cormorant Garamond", serif;
+  min-height: 10vh;
+} */
 
 .navbar-nav {
   margin: auto;
