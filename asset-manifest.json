@@ -1,27 +1,24 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.6855fc52.chunk.css",
-    "main.js": "/personal-website/static/js/main.e885284b.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.e885284b.chunk.js.map",
-    "runtime-main.js": "/personal-website/static/js/runtime-main.e05fbded.js",
-    "runtime-main.js.map": "/personal-website/static/js/runtime-main.e05fbded.js.map",
-    "static/css/2.d5e620ed.chunk.css": "/personal-website/static/css/2.d5e620ed.chunk.css",
-    "static/js/2.41de2dc4.chunk.js": "/personal-website/static/js/2.41de2dc4.chunk.js",
-    "static/js/2.41de2dc4.chunk.js.map": "/personal-website/static/js/2.41de2dc4.chunk.js.map",
-    "static/js/3.0533d648.chunk.js": "/personal-website/static/js/3.0533d648.chunk.js",
-    "static/js/3.0533d648.chunk.js.map": "/personal-website/static/js/3.0533d648.chunk.js.map",
+    "main.js": "/personal-website/static/js/main.a02b36de.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.a02b36de.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.7ddc4de6.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.7ddc4de6.js.map",
+    "static/js/2.bd400402.chunk.js": "/personal-website/static/js/2.bd400402.chunk.js",
+    "static/js/2.bd400402.chunk.js.map": "/personal-website/static/js/2.bd400402.chunk.js.map",
+    "static/js/3.d6070072.chunk.js": "/personal-website/static/js/3.d6070072.chunk.js",
+    "static/js/3.d6070072.chunk.js.map": "/personal-website/static/js/3.d6070072.chunk.js.map",
     "index.html": "/personal-website/index.html",
-    "static/css/2.d5e620ed.chunk.css.map": "/personal-website/static/css/2.d5e620ed.chunk.css.map",
     "static/css/main.6855fc52.chunk.css.map": "/personal-website/static/css/main.6855fc52.chunk.css.map",
-    "static/js/2.41de2dc4.chunk.js.LICENSE.txt": "/personal-website/static/js/2.41de2dc4.chunk.js.LICENSE.txt",
+    "static/js/2.bd400402.chunk.js.LICENSE.txt": "/personal-website/static/js/2.bd400402.chunk.js.LICENSE.txt",
     "static/media/App.css": "/personal-website/static/media/cx.02562f4d.png",
     "static/media/logo.6ce24c58.svg": "/personal-website/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e05fbded.js",
-    "static/css/2.d5e620ed.chunk.css",
-    "static/js/2.41de2dc4.chunk.js",
+    "static/js/runtime-main.7ddc4de6.js",
+    "static/js/2.bd400402.chunk.js",
     "static/css/main.6855fc52.chunk.css",
-    "static/js/main.e885284b.chunk.js"
+    "static/js/main.a02b36de.chunk.js"
   ]
 }
