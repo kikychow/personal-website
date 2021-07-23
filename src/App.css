@@ -7,26 +7,31 @@ body {
   overflow-x: hidden;
 }
 
-/* h1 {
-  font-family: "Rock Salt", cursive;
-  font-size: 60px !important;
-  color: burlywood;
-}  */
-
-h2 {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
-  font-size: 60px !important;
-  color: white;
-  border-left: 1px solid white;
-  text-align: left;
-  padding: 0px 30px;
-  margin: 20px;
-}
-
 .App {
   text-align: center;
-  /* background-color: antiquewhite; */
+  font-family: "Oswald", sans-serif;
+}
+
+.section-title {
+  position: relative;
+}
+
+.section-title h1:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background: #dc965a;
+  left: 50%;
+  bottom: -1rem;
+  transform: translate(-50%, 0);
+}
+
+.center-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .home-page {
@@ -46,15 +51,7 @@ h2 {
   background-position: center center;
 }
 
-.home-page .center-block {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .home-page .subtitle {
-  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -63,12 +60,11 @@ h2 {
   letter-spacing: 0.15em;
   color: #fff;
   margin: 0 0 30px 0;
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 .home-page .name {
   position: relative;
-  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 4rem;
@@ -80,7 +76,7 @@ h2 {
   width: 100%;
   line-height: 100%;
   margin: 0;
-  /* opacity: 80%; */
+  /* opacity: 0.8; */
 }
 
 .home-page .icon-container {
@@ -91,14 +87,33 @@ h2 {
   color: white;
   font-size: 1.5rem;
   margin: 0px 8px;
-  opacity: 80%;
+  opacity: 0.8;
   cursor: pointer;
 }
 
-.home-page .icon-container .icon:hover{
+.home-page .icon-container .icon:hover {
   transition: transform 1s;
   transform: scale(1.1);
   opacity: 1;
+}
+
+.about-page {
+  padding: 4rem 4rem;
+}
+
+.about-page img {
+  max-width: 250px;
+  border: 5px solid #eee;
+  background: #fff;
+  padding: 5px;
+  margin: 30px auto;
+  box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 30%);
+  border-radius: 50%;
+}
+
+.about-page .description {
+  max-width: 600px;
+  margin: auto;
 }
 
 .menu {
@@ -108,14 +123,6 @@ h2 {
 background: radial-gradient(circle, rgba(32,73,92,1) 40%, rgba(15,33,42,1) 100%); */
   /* background-color:rgba(32, 72, 92, 1); */
   /* background-color:rgba(0, 117, 117, 1); */
-}
-
-.content {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
-  font-size: 20px;
-  /* color: rgba(198, 141, 128, 1); */
-  color: grey;
 }
 
 .App-logo {
@@ -167,7 +174,7 @@ background: radial-gradient(circle, rgba(32,73,92,1) 40%, rgba(15,33,42,1) 100%)
   padding: 0px 30px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   transition: transform 1s;
   transform: scale(1.1);
 }
@@ -175,7 +182,7 @@ background: radial-gradient(circle, rgba(32,73,92,1) 40%, rgba(15,33,42,1) 100%)
 .nav-link {
   color: white;
   text-decoration: none;
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 .nav-link:hover {
@@ -184,60 +191,51 @@ background: radial-gradient(circle, rgba(32,73,92,1) 40%, rgba(15,33,42,1) 100%)
   opacity: 1;
 }
 
-.card {
-  background-color: #333 !important;
-  position: relative;
-  min-height: 320px;
-  overflow: hidden;
-  margin: 20px;
-  border-radius: 10px !important;
-  box-shadow: 0px 30px 60px 0px rgba(247, 178, 178, 0.3), inset #333 0 0 0 5px,
-    inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
-  border: none !important;
+.projects-page {
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.7); */
 }
 
-.card:hover {
-  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.3), inset #333 0 0 0 5px,
-    inset rgba(255, 255, 255, 0.5) 0 0 0 6px, white 0 0 0 2px;
-}
-
-.card-image {
-  opacity: 0.7;
+.projects-page .section-title {
   position: absolute;
-  background-position: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.projects-page .layout-row {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.projects-page .layout-row .project-card {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/pintos.jpg"); */
+  background-position: center center;
   background-size: cover;
+  position: relative;
+  height: 25vw;
 }
 
-.card-image:hover {
-  opacity: 0.5;
+/* .projects-page .layout-row .col-lg-3 .project-card{
+  height: 25vw;
 }
 
-.project-name {
-  font-family: "Cormorant Garamond", serif;
+.projects-page .layout-row .col-md-6 .project-card{
+  height: 50vw;
+}
+
+.projects-page .layout-row .col-sm-12 .project-card{
+  height: 100vw;
+} */
+
+.projects-page .layout-row .project-card .project-name {
   font-size: 20px;
-  font-weight: 500;
   text-shadow: rgba(black, 0.5) 0 10px 10px;
   bottom: 0;
   position: absolute;
-  padding: 20px;
-  transform: translateY(40%);
+  margin: 1rem;
   color: #fff;
-}
-
-.projects-page {
-  /* background-color: rgba(218, 192, 167, 1) !important; */
-  /* background-color: burlywood !important; */
-  background-color: rgba(202, 170, 147, 1) !important;
-  padding: 30px;
-}
-
-.projectspage-content {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
-  font-size: 20px !important;
-  color: white;
-  border-left: 1px solid white;
-  text-align: left;
-  padding: 0px 30px;
-  margin: 20px;
 }
